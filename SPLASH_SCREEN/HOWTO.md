@@ -14,9 +14,11 @@ Add at the end of this file:
 
 Next is the cmdline.txt - here we change the output of the console.
 
-**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!
-- Nothing should be split up into two lines
-- All parameters are split by 1 space!**
+**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!**
+
+**- Nothing should be split up into two lines**
+
+**- All parameters are split by 1 space!**
 
 `sudo nano /boot/cmdline.txt`
 
