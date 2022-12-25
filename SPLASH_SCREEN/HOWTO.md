@@ -1,6 +1,6 @@
 ## Raspberry PI Splashscreen HowTo
 
-###### This HOWTO is highly inspirated by [Florian Mueller](https://florianmuller.com/topic/technology)
+###### This HOWTO is highly inspired by [Florian Mueller](https://florianmuller.com/topic/technology)
 
 First let's get rid of the ugly rainbow screen that appears when the Pi is switched on. Edit the config.txt:
 
