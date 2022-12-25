@@ -2,6 +2,8 @@
 
 ###### This HOWTO is highly inspired by [Florian Mueller](https://florianmuller.com/topic/technology)
 
+&nbsp;
+
 First let's get rid of the ugly rainbow screen that appears when the Pi is switched on. Edit the config.txt:
 
 `sudo nano /boot/config.txt`
@@ -11,6 +13,8 @@ Add at the end of this file:
 `disable_splash=1`
 
 **STRG+X** to save the file and confirm overwriting the file with **Y**.
+
+&nbsp;
 
 Next is the cmdline.txt - here we change the output of the console.
 
@@ -28,11 +32,15 @@ In this file we find parameters, all in one line. Its important that you add the
 
 **STRG+X** to save the file and confirm overwriting the file with **Y**.
 
+&nbsp;
+
 To be able to use a video or an image as a splash screen, we need to install software. Either you can use **omxplayer** or **vlc**. Installation:
 
 `sudo apt-get update`
 For OMXPlayer: `sudo apt-get install omxplayer`
 For VLC: `sudo apt-get install vlc`
+
+&nbsp;
 
 Now we have to define what to play on boot. Edit rc.local:
 
@@ -49,6 +57,8 @@ For OMXPlayer: `omxplayer /home/pi/video/splash_video.mov &`
 For VLC: `cvlc /home/pi/video/splash_video.mov &`
 
 **STRG+X** to save the file and confirm overwriting the file with **Y**.
+
+&nbsp;
 
 That should be all ... Reboot your Pi and your video / image should appear while booting.
 
