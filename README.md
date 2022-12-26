@@ -6,4 +6,8 @@ Hope you like it here. Any suggestions for improvement are welcome!
 
 &nbsp;
 
+<img src="https://github.com/mmuellerphoto/Caribou-Klipper/blob/master/KlipperCar320-I.jpg">
+
+&nbsp;
+
 #### This is **not** an official [Caribou3d Research & Development](https://caribou3d.com/) Repository!
