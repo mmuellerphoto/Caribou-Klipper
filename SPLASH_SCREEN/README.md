@@ -12,17 +12,17 @@ Add at the end of this file:
 
 `disable_splash=1`
 
-**STRG+X** to save the file and confirm overwriting the file with **Y**.
+<kbd>STRG</kbd>+<kbd>X</kbd> to save the file and confirm overwriting the file with <kbd>Y</kbd>.
 
 &nbsp;
 
 Next is the cmdline.txt - here we change the output of the console.
 
-**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!**
+>**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!**
 
-**- Nothing should be split up into two lines**
+>**- Nothing should be split up into two lines**
 
-**- All parameters are split by 1 space!**
+>**- All parameters are split by 1 space!**
 
 `sudo nano /boot/cmdline.txt`
 
@@ -30,7 +30,7 @@ In this file we find parameters, all in one line. Its important that you add the
 
 ```consoleblank=1 logo.nologo quiet loglevel=0 plymouth.enable=0 vt.global_cursor_default=0 plymouth.ignore-serial-consoles splash fastboot noatime nodiratime noram```
 
-**STRG+X** to save the file and confirm overwriting the file with **Y**.
+<kbd>STRG</kbd>+<kbd>X</kbd> to save the file and confirm overwriting the file with <kbd>Y</kbd>.
 
 &nbsp;
 
@@ -56,7 +56,7 @@ For OMXPlayer: `omxplayer /home/pi/video/splash_video.mov &`
 
 For VLC: `cvlc /home/pi/video/splash_video.mov &`
 
-**STRG+X** to save the file and confirm overwriting the file with **Y**.
+<kbd>STRG</kbd>+<kbd>X</kbd> to save the file and confirm overwriting the file with <kbd>Y</kbd>.
 
 &nbsp;
 
