@@ -18,11 +18,9 @@ Add at the end of this file:
 
 Next is the cmdline.txt - here we change the output of the console.
 
->**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!**
-
->**- Nothing should be split up into two lines**
-
->**- All parameters are split by 1 space!**
+**WARNING: Editing cmdline.txt wrong will break your Raspberrys boot up. Always ensure that you have everything in ONE LINE!**
++ All parameters are split by 1 space!
++ Nothing should be split up into two lines
 
 `sudo nano /boot/cmdline.txt`
 
@@ -37,7 +35,9 @@ In this file we find parameters, all in one line. Its important that you add the
 To be able to use a video or an image as a splash screen, we need to install software. Either you can use **omxplayer** or **vlc**. Installation:
 
 `sudo apt-get update`
+
 For OMXPlayer: `sudo apt-get install omxplayer`
+
 For VLC: `sudo apt-get install vlc`
 
 &nbsp;
