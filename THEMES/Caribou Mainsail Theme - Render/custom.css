@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+:root {
+    --Primary:        #282a36;    /*Voron:Black*/
+    --Secondary:      #ff5555;    /*Voron:Red*/
+    --c_green:        #0B7C19;    /*caribou:green*/
+    --c_gray:         #222222;    /*caribou:grey*/
+    --Green:          #50fa7b; 
+    --Red:            #ff5555;
+    --Warnings:       #ffb86c;
+    --Text:           #f8f8f2;
+    --DarkerText:     #f5f5f2;
+    --Background:     #44475a;
+    --DarkBackground: #282a36;
+    --Toolbars:       #44475a;
+    --Sheets:         #282a36;
+}
+
+#nav-header .v-toolbar__title {
+    font-size: 20px;
+    vertical-align: middle;
+    color: var(--c_green);
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.v-btn:not(.v-btn--outlined).warning {
+    color: var(--c_gray) !important;
+}
+
+.v-btn:not(.v-btn--outlined).accent, .v-btn:not(.v-btn--outlined).error, .v-btn:not(.v-btn--outlined).info, .v-btn:not(.v-btn--outlined).primary, .v-btn:not(.v-btn--outlined).secondary, .v-btn:not(.v-btn--outlined).success {
+    color: #f8f8f2 !important;
+}
+
+.consoleScrollContainer,
+.consoleTable {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.theme--dark.v-icon {
+    color: #107c18;
+}
