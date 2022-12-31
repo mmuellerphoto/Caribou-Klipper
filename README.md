@@ -6,7 +6,7 @@ Hope you like it here. Any suggestions for improvement are welcome!
 
 &nbsp;
 
-<img src="https://github.com/mmuellerphoto/Caribou-Klipper/blob/master/Images/KlipperCar320-I.jpg">
+<img src="https://github.com/mmuellerphoto/Caribou-Klipper/blob/master/IMAGES/KlipperCar320-I.jpg">
 
 &nbsp;
 
