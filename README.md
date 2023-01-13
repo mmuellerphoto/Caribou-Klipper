@@ -1,4 +1,4 @@
-## Welcome to Caribou Klipper 
+## Welcome to Caribou (Duet) Klipper 
 
 Here you will find some self made Caribou Klipper files, GCodes and stuff.
 
